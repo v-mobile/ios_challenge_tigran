@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1DB6F40E1F700E4A00CD1CDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6F40D1F700E4A00CD1CDA /* AppDelegate.swift */; };
-		1DB6F4101F700E4A00CD1CDA /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6F40F1F700E4A00CD1CDA /* ContactsViewController.swift */; };
-		1DB6F4121F700E4A00CD1CDA /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6F4111F700E4A00CD1CDA /* FavoritesViewController.swift */; };
 		1DB6F4151F700E4A00CD1CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB6F4131F700E4A00CD1CDA /* Main.storyboard */; };
 		1DB6F4171F700E4A00CD1CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB6F4161F700E4A00CD1CDA /* Assets.xcassets */; };
 		1DB6F41A1F700E4A00CD1CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB6F4181F700E4A00CD1CDA /* LaunchScreen.storyboard */; };
@@ -21,6 +19,8 @@
 		1DB6F43B1F70185500CD1CDA /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6F43A1F70185500CD1CDA /* Contact.swift */; };
 		1DB6F43D1F70186200CD1CDA /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6F43C1F70186200CD1CDA /* Contacts.swift */; };
 		1DB6F43F1F70187200CD1CDA /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6F43E1F70187200CD1CDA /* Favorites.swift */; };
+		1DFB04AB1F702F0C00602034 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFB04A91F702F0C00602034 /* ContactsViewController.swift */; };
+		1DFB04AC1F702F0C00602034 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFB04AA1F702F0C00602034 /* FavoritesViewController.swift */; };
 		75CB0F61D8F76B0E01E83607 /* Pods_FishermenTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12E1C8556F11635032957F4 /* Pods_FishermenTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,8 +37,6 @@
 /* Begin PBXFileReference section */
 		1DB6F40A1F700E4A00CD1CDA /* FishermenTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishermenTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB6F40D1F700E4A00CD1CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1DB6F40F1F700E4A00CD1CDA /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactsViewController.swift; path = ../ContactsViewController.swift; sourceTree = "<group>"; };
-		1DB6F4111F700E4A00CD1CDA /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoritesViewController.swift; path = ../FavoritesViewController.swift; sourceTree = "<group>"; };
 		1DB6F4141F700E4A00CD1CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DB6F4161F700E4A00CD1CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DB6F4191F700E4A00CD1CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		1DB6F43A1F70185500CD1CDA /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		1DB6F43C1F70186200CD1CDA /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		1DB6F43E1F70187200CD1CDA /* Favorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		1DFB04A91F702F0C00602034 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		1DFB04AA1F702F0C00602034 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		8C21DF330146151B40FF0AC6 /* Pods-FishermenTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishermenTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-FishermenTest/Pods-FishermenTest.release.xcconfig"; sourceTree = "<group>"; };
 		964831F672185AEB1368FE5C /* Pods-FishermenTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishermenTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FishermenTest/Pods-FishermenTest.debug.xcconfig"; sourceTree = "<group>"; };
 		B12E1C8556F11635032957F4 /* Pods_FishermenTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FishermenTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,8 +136,8 @@
 		1DB6F4301F7013B900CD1CDA /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				1DB6F40F1F700E4A00CD1CDA /* ContactsViewController.swift */,
-				1DB6F4111F700E4A00CD1CDA /* FavoritesViewController.swift */,
+				1DFB04A91F702F0C00602034 /* ContactsViewController.swift */,
+				1DFB04AA1F702F0C00602034 /* FavoritesViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -344,13 +344,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DB6F43F1F70187200CD1CDA /* Favorites.swift in Sources */,
+				1DFB04AC1F702F0C00602034 /* FavoritesViewController.swift in Sources */,
 				1DB6F43D1F70186200CD1CDA /* Contacts.swift in Sources */,
 				1DB6F4381F70145F00CD1CDA /* ContactCell.swift in Sources */,
 				1DB6F4331F7013DD00CD1CDA /* ApiManager.swift in Sources */,
-				1DB6F4121F700E4A00CD1CDA /* FavoritesViewController.swift in Sources */,
 				1DB6F4351F7013EF00CD1CDA /* RealmManager.swift in Sources */,
+				1DFB04AB1F702F0C00602034 /* ContactsViewController.swift in Sources */,
 				1DB6F40E1F700E4A00CD1CDA /* AppDelegate.swift in Sources */,
-				1DB6F4101F700E4A00CD1CDA /* ContactsViewController.swift in Sources */,
 				1DB6F43B1F70185500CD1CDA /* Contact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
