@@ -71,18 +71,18 @@ class ContactCell: UITableViewCell {
     
     @IBAction func favoriteAction(_ sender: Any) {
         if !favoriteButton.isSelected {
-            let newObject = Favorites()
-            newObject.id = "Favorites"
             if let favoritesObject = RealmManager.shared.getObjectsWith(type: Favorites.self)?.first as? Favorites {
-                newObject.id = favoritesObject.id
-                newObject.contacts.append(self.contact!)
-                newObject.contacts.append(contentsOf: favoritesObject.contacts)
+                try! RealmManager.shared.realm.write({
+                    favoritesObject.contacts.append(self.contact!)
+                })
+                RealmManager.shared.save(object: favoritesObject, update: true)
             }
             else {
+                let newObject = Favorites()
+                newObject.id = "Favorites"
                 newObject.contacts.append(self.contact!)
+                RealmManager.shared.save(object: newObject, update: true)
             }
-            RealmManager.shared.save(object: newObject, update: true)
-            
             self.favoriteButton.isSelected = true
         }
     }
